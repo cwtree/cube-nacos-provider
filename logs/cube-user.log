@@ -1,0 +1,144 @@
+[21-04-19 18:59:31:907][INFO ][com.cube.CubeBootApplication][main]Starting CubeBootApplication using Java 1.8.0_191 on chiwei-PC with PID 29164 (E:\code\cube-nacos-provider\target\classes started by chiwei in E:\code\cube-nacos-provider)
+[21-04-19 18:59:31:909][INFO ][com.cube.CubeBootApplication][main]The following profiles are active: dev
+[21-04-19 18:59:33:274][WARN ][tk.mybatis.spring.mapper.ClassPathMapperScanner][main]No MyBatis mapper was found in '[com.cube]' package. Please check your configuration.
+[21-04-19 18:59:33:337][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Multiple Spring Data modules found, entering strict repository configuration mode!
+[21-04-19 18:59:33:339][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[21-04-19 18:59:33:399][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[21-04-19 18:59:33:557][WARN ][org.mybatis.spring.mapper.ClassPathMapperScanner][main]No MyBatis mapper was found in '[com.cube]' package. Please check your configuration.
+[21-04-19 18:59:33:678][INFO ][org.springframework.cloud.context.scope.GenericScope][main]BeanFactory id=a48a0982-587e-3fe7-96e2-7eb675162f57
+[21-04-19 18:59:33:719][INFO ][com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor][main]Post-processing PropertySource instances
+[21-04-19 18:59:33:745][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[21-04-19 18:59:33:747][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:33:747][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource Config resource 'file [config\application-dev.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:33:748][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource Config resource 'file [config\application.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:33:839][INFO ][com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter][main]Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[21-04-19 18:59:34:121][INFO ][com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver][main]Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[21-04-19 18:59:34:124][INFO ][com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector][main]Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[21-04-19 18:59:34:690][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main]Tomcat initialized with port(s): 9288 (http)
+[21-04-19 18:59:34:701][INFO ][org.apache.catalina.core.StandardService][main]Starting service [Tomcat]
+[21-04-19 18:59:34:701][INFO ][org.apache.catalina.core.StandardEngine][main]Starting Servlet engine: [Apache Tomcat/9.0.43]
+[21-04-19 18:59:34:828][INFO ][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/cube]][main]Initializing Spring embedded WebApplicationContext
+[21-04-19 18:59:34:828][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main]Root WebApplicationContext: initialization completed in 2863 ms
+[21-04-19 18:59:34:922][INFO ][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure][main]Init DruidDataSource
+[21-04-19 18:59:34:988][WARN ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][main]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$JpaInvokerConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[21-04-19 18:59:34:991][INFO ][org.apache.catalina.core.StandardService][main]Stopping service [Tomcat]
+[21-04-19 18:59:35:051][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][main]
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[21-04-19 18:59:35:108][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][main]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+[21-04-19 18:59:56:611][INFO ][com.cube.CubeBootApplication][main]Starting CubeBootApplication using Java 1.8.0_191 on chiwei-PC with PID 35548 (E:\code\cube-nacos-provider\target\classes started by chiwei in E:\code\cube-nacos-provider)
+[21-04-19 18:59:56:613][INFO ][com.cube.CubeBootApplication][main]The following profiles are active: dev
+[21-04-19 18:59:57:486][WARN ][tk.mybatis.spring.mapper.ClassPathMapperScanner][main]No MyBatis mapper was found in '[com.cube]' package. Please check your configuration.
+[21-04-19 18:59:57:571][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Multiple Spring Data modules found, entering strict repository configuration mode!
+[21-04-19 18:59:57:574][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[21-04-19 18:59:57:597][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[21-04-19 18:59:57:771][WARN ][org.mybatis.spring.mapper.ClassPathMapperScanner][main]No MyBatis mapper was found in '[com.cube]' package. Please check your configuration.
+[21-04-19 18:59:57:882][INFO ][org.springframework.cloud.context.scope.GenericScope][main]BeanFactory id=b1b5ee6c-ed37-3c27-991f-ef3714d4883e
+[21-04-19 18:59:57:923][INFO ][com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor][main]Post-processing PropertySource instances
+[21-04-19 18:59:57:945][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[21-04-19 18:59:57:946][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:57:946][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource Config resource 'file [config\application-dev.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:57:947][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource Config resource 'file [config\application.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 18:59:58:029][INFO ][com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter][main]Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[21-04-19 18:59:58:293][INFO ][com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver][main]Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[21-04-19 18:59:58:295][INFO ][com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector][main]Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[21-04-19 18:59:58:858][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main]Tomcat initialized with port(s): 9288 (http)
+[21-04-19 18:59:58:871][INFO ][org.apache.catalina.core.StandardService][main]Starting service [Tomcat]
+[21-04-19 18:59:58:872][INFO ][org.apache.catalina.core.StandardEngine][main]Starting Servlet engine: [Apache Tomcat/9.0.43]
+[21-04-19 18:59:58:993][INFO ][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/cube]][main]Initializing Spring embedded WebApplicationContext
+[21-04-19 18:59:58:993][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main]Root WebApplicationContext: initialization completed in 2320 ms
+[21-04-19 18:59:59:733][INFO ][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][main]Initializing ExecutorService 'applicationTaskExecutor'
+[21-04-19 19:00:00:274][INFO ][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][main]Initializing ExecutorService 'taskScheduler'
+[21-04-19 19:00:00:308][INFO ][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure][main]Init DruidDataSource
+[21-04-19 19:00:00:381][WARN ][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][main]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[21-04-19 19:00:00:382][WARN ][org.springframework.beans.factory.support.DisposableBeanAdapter][main]Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[21-04-19 19:00:00:383][INFO ][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][main]Shutting down ExecutorService 'taskScheduler'
+[21-04-19 19:00:00:384][INFO ][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][main]Shutting down ExecutorService 'applicationTaskExecutor'
+[21-04-19 19:00:00:390][INFO ][org.apache.catalina.core.StandardService][main]Stopping service [Tomcat]
+[21-04-19 19:00:00:477][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][main]
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[21-04-19 19:00:00:494][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][main]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+[21-04-19 19:01:23:904][INFO ][com.cube.CubeBootApplication][main]Starting CubeBootApplication using Java 1.8.0_191 on chiwei-PC with PID 6816 (E:\code\cube-nacos-provider\target\classes started by chiwei in E:\code\cube-nacos-provider)
+[21-04-19 19:01:23:907][INFO ][com.cube.CubeBootApplication][main]The following profiles are active: dev
+[21-04-19 19:01:24:881][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Multiple Spring Data modules found, entering strict repository configuration mode!
+[21-04-19 19:01:24:884][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[21-04-19 19:01:24:901][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main]Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[21-04-19 19:01:25:093][INFO ][org.springframework.cloud.context.scope.GenericScope][main]BeanFactory id=359b8f1c-1a84-39fc-97ae-106e42cef84b
+[21-04-19 19:01:25:135][INFO ][com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor][main]Post-processing PropertySource instances
+[21-04-19 19:01:25:159][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[21-04-19 19:01:25:160][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 19:01:25:160][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource Config resource 'file [config\application-dev.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 19:01:25:161][INFO ][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter][main]Converting PropertySource Config resource 'file [config\application.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[21-04-19 19:01:25:239][INFO ][com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter][main]Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[21-04-19 19:01:25:385][INFO ][com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver][main]Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[21-04-19 19:01:25:388][INFO ][com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector][main]Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[21-04-19 19:01:25:848][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main]Tomcat initialized with port(s): 9288 (http)
+[21-04-19 19:01:25:858][INFO ][org.apache.catalina.core.StandardService][main]Starting service [Tomcat]
+[21-04-19 19:01:25:858][INFO ][org.apache.catalina.core.StandardEngine][main]Starting Servlet engine: [Apache Tomcat/9.0.43]
+[21-04-19 19:01:26:004][INFO ][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/cube]][main]Initializing Spring embedded WebApplicationContext
+[21-04-19 19:01:26:004][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main]Root WebApplicationContext: initialization completed in 2035 ms
+[21-04-19 19:01:26:753][INFO ][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][main]Initializing ExecutorService 'applicationTaskExecutor'
+[21-04-19 19:01:27:221][INFO ][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][main]Initializing ExecutorService 'taskScheduler'
+[21-04-19 19:01:28:394][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main]Tomcat started on port(s): 9288 (http) with context path '/cube'
+[21-04-19 19:01:28:430][INFO ][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][main]nacos registry, DEFAULT_GROUP cube-nacos-provider 172.30.1.82:9288 register finished
+[21-04-19 19:01:28:977][INFO ][com.cube.CubeBootApplication][main]Started CubeBootApplication in 5.798 seconds (JVM running for 6.199)
+[21-04-19 19:01:28:980][INFO ][com.cube.CubeBootApplication][main]
+----------------------------------------------------------
+	Application is running! Access URLs:
+	swagger-ui: 	http://ip:port/${context-path}/swagger/index.html
+	----------------------------------------------------------
